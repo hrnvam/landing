@@ -1,0 +1,223 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #292929;
+}
+main {
+  padding: 120px;
+  background-color: white;
+}
+/* #region recommended */
+#recommendedt {
+  margin-top: 40px;
+  margin-bottom: 64px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -1.5px;
+}
+.rproducts {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.product_photo {
+  width: 100%;
+  margin-bottom: 32px;
+}
+.product_title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 140%;
+}
+.product_category {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.product_price {
+  margin: 0;
+  font-weight: bold;
+}
+.product {
+  flex-basis: 324px;
+}
+#recommended {
+  margin-bottom: 120px;
+}
+/* #endregion */
+/* #region categories */
+#categoriest {
+  margin-top: 0;
+  margin-bottom: 64px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -1.5px;
+}
+#categories {
+  max-width: 1020px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+.categories_title {
+  margin-top: 0;
+  margin-bottom: 64px;
+  font-size: 48px;
+  line-height: 100%;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -1.5px;
+}
+.category {
+  margin-bottom: 64px;
+}
+.category__photos {
+  display: flex;
+  gap: 3%;
+  margin-bottom: 16px;
+}
+.category__title {
+  margin: 0;
+}
+/* #endregion */
+/* #region photos */
+.photo-wide {
+  width: 65%;
+}
+.photo-square {
+  width: 32%;
+}
+/* #endregion */ 
+/* #region how-to-buy */
+#how-to-buyt {
+  margin-top: 0;
+  margin-bottom: 64px;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -1.5px;
+}
+#how-to-buy {
+  display: flex;
+  gap: 24px;
+  max-width: 1020px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.how-to-buy_content {
+  flex-basis: 50%;
+}
+.how-to-buy_benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+/* #endregion */
+/* #region footer */
+#footer {
+  height: 460px;
+  background-image: url(images/footer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: sticky;
+  bottom: 0;
+  z-index: -1;
+}
+/* #endregion */
+/* #region header */
+header {
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 64px 120px;
+  background-image: url(images/Headphones-image-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.headertop {
+  display: flex;
+  justify-content: space-between;
+}
+.headerbottom {
+ font-size: larger;
+}
+#shades {
+  width: 498px;
+  height: 96px;
+  top: 560px;
+  left: 120px;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+/* #endregion */
+/* #region menu */
+.menu {
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 64px 120px;
+  background-color: #E8EFF9;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateX(-100%);
+  transition: transform 500ms;
+  
+}
+.menu:target {
+  transform: translateX(0%);
+}
+
+#menutop {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_link {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #292929;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+}
+#cancel {
+  width: 24px;
+  height: 24px;
+  top: 64px;
+  left: 1116px;
+  padding: 4px
+}
+/* #endregion */
